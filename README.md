@@ -5,10 +5,12 @@ KBV Core RESTful API:
 - reqeust/response message format is JSON
 - the services are addressed via URI
 - the request method is POST
+- use token based stateless authentication
 
 HTTP Request Header
 |Attribute	|Value |Mandatory  |Decsription
 | --- | -----------  | --------- | ---------
+|Authorization | JSON Web Token (JWT) | true | Authetication token
 |Content-Type | application/json | true | Media type of KBV API is JSON
 |Accept-Encoding | gzip | false | false | If the attribute present is set to GZIp, KBV 
 
