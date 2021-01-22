@@ -12,7 +12,8 @@ For external service consumers, the KBV services are protected via secured HTTP 
 External consumers access the KBV services using basic authentication. The transition from basic authentication to the KBV token authetication is perfomed in the cloud and ist not a part of the KBV Core API. (TODO: What is the exact name of this mechanism? Are there documentation for this mechanism? Refer here to the documentation).
 
 
-## HTTP Request Header
+## KBV Service Request
+Structure of HTTP request:
 |Part | Attribute	|Value |Mandatory  |Decsription
 | --- | -----------  | --------- | ---------
 |Header |Authorization | JSON Web Token (JWT) | true | Authetication token
