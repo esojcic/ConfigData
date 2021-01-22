@@ -2,11 +2,11 @@
 
 KBV Core RESTful API:
 - use secure HTTP (HTTPS) as transport layer
-- reqeust/response message format is: JSON
-- the service are addressed via URI
+- reqeust/response message format is JSON
+- the services are addressed via URI
 - the request method is POST
 
- 
+HTTP Request Header
 |Attribute	|Value |Mandatory  |Decsription
 | --- | -----------  | --------- | ---------
 |Content-Type | application/json | true | Media type of KBV API is JSON
