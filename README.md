@@ -1,12 +1,11 @@
 # Communication/Transport
 
 KBV Core RESTful API:
-- transport layer: secure HTTP (HTTPS) 
-- message format: JSON. 
-The KBV API service are addressed via URI:
-- Registry URIs: <base-uri>/
+- use secure HTTP (HTTPS) as transport layer
+- reqeust/response message format is: JSON
+- the service are addressed via URI
+- the request method is POST
 
- and sopports requests method is POST
  
 |Attribute	|Value |Mandatory  |Decsription
 | --- | -----------  | --------- | ---------
