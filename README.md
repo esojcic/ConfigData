@@ -3,7 +3,7 @@
 ## KBV Core RESTful API
 - uses HTTP as transport layer
 - reqeust/response message format is JSON
-- the services are addressed via URI
+- the services are addressed via URIs
 - the request method is POST
 - use token based stateless authentication
 
