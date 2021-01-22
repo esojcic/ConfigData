@@ -16,7 +16,7 @@ External consumers access the KBV services using basic authentication. The trans
 Structure of HTTP request:
 
 |Part | Attribute	|Value |Mandatory  |Decsription
-| --- | | --- | -----------  | --------- | ---------
+| --- | --- | -----------  | --------- | ---------
 |Header |Authorization | JSON Web Token (JWT) | true | Authetication token
 |Header |Content-Type | application/json | true | Media type of KBV API is JSON
 |Header |Accept-Encoding | gzip | false | If the attribute is present and is set to GZIp, KBV 
