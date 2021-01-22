@@ -9,7 +9,7 @@
 
 ## External accessibility of the KBV Services
 For external service consumers, the KBV services are protected via secured HTTP (HTTPS). However, HTTPS is not a part of the KBV Core API implementation and takes place in the Cloud, when the internal resources are mapped to the external URLs and exposed. 
-External consumers access the KBV services using basic authentication. The transition from basic authentication to KBV the token authetication is covered by cloud components  (TODO: What is the exact name of this mechanism? Are there documentation for this mechanism? Refer here to the documentation).
+External consumers access the KBV services using basic authentication. The transition from basic authentication to the KBV token authetication is perfomed in the cloud and ist not a part of the KBV Core API. (TODO: What is the exact name of this mechanism? Are there documentation for this mechanism? Refer here to the documentation).
 
 The secure HTTP (HTTPS) as transport layer is not a part of the KBV Core API, but  
 
