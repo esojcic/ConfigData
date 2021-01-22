@@ -1,7 +1,7 @@
 # Communication/Transport
 
 KBV Core RESTful API
-|Attribute	|Value |Mandatory  |Decsription
+
 | --- | -----------  | --------- | ---------
 |Content-Type | application/json | true | Media type of KBV API is JSON
 |Accept-Encoding | gzip | false | false | If the attribute present is set to GZIp, KBV 
