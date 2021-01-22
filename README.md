@@ -20,7 +20,7 @@ Structure of HTTP request:
 |Header |Authorization | JSON Web Token (JWT) | true | Authetication token
 |Header |Content-Type | application/json | true | Media type of KBV API is JSON
 |Header |Accept-Encoding | gzip | false | If the attribute is present and is set to GZIp, the response will be compressed
-|Body |--- |JSON | Request message in JSON format
+|Body |--- |JSON | true | Request message in JSON format
 
 HTTP compression, otherwise known as content encoding, is a publicly defined way to compress textual content transferred from web servers to browsers. HTTP compression uses public domain compression algorithms, like gzip and compress, to compress XHTML, JavaScript, CSS, and other text files at the server.Sep 
 HTTP Request 
