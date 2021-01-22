@@ -1,12 +1,14 @@
 # Communication/Transport
 
 #KBV Core RESTful API:
-- use secure HTTP (HTTPS) as transport layer
+- uses HTTP as transport layer. 
+Protection via secure HTTP (HTTPS) takes place in the Cloud at mapping of the internal resources to the external.
 - reqeust/response message format is JSON
 - the services are addressed via URI
 - the request method is POST
 - use token based stateless authentication
 
+The secure HTTP (HTTPS) as transport layer is not a part of the KBV Core API, but  
 
 HTTP Request Header
 |Attribute	|Value |Mandatory  |Decsription
