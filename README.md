@@ -1,6 +1,7 @@
 # Communication/Transport
 
-## KBV Core RESTful API
+## KBV Core API 
+- RESTful API
 - uses HTTP as transport layer
 - reqeust/response message format is JSON
 - the services are addressed via URIs
