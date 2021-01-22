@@ -1,6 +1,6 @@
 # Communication/Transport
 
-KBV Core RESTful API:
+#KBV Core RESTful API:
 - use secure HTTP (HTTPS) as transport layer
 - reqeust/response message format is JSON
 - the services are addressed via URI
